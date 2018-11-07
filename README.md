@@ -1,12 +1,14 @@
 # Faster Automated annotation of cellular cryo-electron tomograms using convolutional neural network
 
-The architecture was inspired by [U-Net: Convolutional Networks for Biomedical Image Segmentation](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) and [Convolutional neural networks for automated annotation of cellular cryo-electron tomograms](https://www.nature.com/articles/nmeth.4405)
+The architecture was inspired by [U-Net: Convolutional Networks for Biomedical Image Segmentation](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) and based on the previous work [Convolutional neural networks for automated annotation of cellular cryo-electron tomograms](https://www.nature.com/articles/nmeth.4405)
 
 ---
 
 ## Overview
 
 ### Data
+
+TEM image stack of [PC12 cell], a tomogram after binning 4 is 864*864*94 pixels, 28 angstrom per pixel. There are four features to annotate, microtubules, ribosomes, single membranes and double membranes (https://www.ebi.ac.uk/pdbe/entry/emdb/EMD-8594). 
 
 ### Data augmentation
 
