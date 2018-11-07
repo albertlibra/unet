@@ -8,7 +8,7 @@ The architecture was inspired by [U-Net: Convolutional Networks for Biomedical I
 
 ### Data
 
-TEM image stack of [PC12 cell](https://www.ebi.ac.uk/pdbe/entry/emdb/EMD-8594), a tomogram after binning 4 is $864\times864\times94$ pixels, 28 angstrom per pixel. There are four features to annotate, microtubules, ribosomes, single membranes and double membranes. 
+TEM image stack of [PC12 cell](https://www.ebi.ac.uk/pdbe/entry/emdb/EMD-8594), a tomogram after binning 4 is 864\times864\times94 pixels, 28 angstrom per pixel. There are four features to annotate, microtubules, ribosomes, single membranes and double membranes. 
 
 ### Data augmentation
 
