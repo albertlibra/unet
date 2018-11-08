@@ -27,12 +27,13 @@ Loss function for the training is cross-entropy.
 
 ## How to use
 
-The full U-Net will be implemented in the extensive cryo-EM software package [EMAN2](https://blake.bcm.edu/emanwiki/EMAN2, as one of the mode. And you can have an idea of how the previous 4-layer CNN works [here](https://blake.bcm.edu/emanwiki/EMAN2/Programs/tomoseg).
+The full U-Net will be implemented in the extensive cryo-EM software package [EMAN2](https://blake.bcm.edu/emanwiki/EMAN2), as one of the mode. And you can have an idea of how the previous 4-layer CNN works [here](https://blake.bcm.edu/emanwiki/EMAN2/Programs/tomoseg).
 
 ### Dependencies
 
-EMAN2.
-keras >= 1.0
+ - EMAN2
+ - keras >= 1.0
+ 
 Also, this code should be compatible with Python version 2.7.14.
 
 
