@@ -8,7 +8,7 @@ The architecture was inspired by [U-Net: Convolutional Networks for Biomedical I
 
 ### Data
 
-TEM image stack of [PC12 cell](https://www.ebi.ac.uk/pdbe/entry/emdb/EMD-8594), a tomogram after binning 4 is 864\*864\*94 pixels, 28 angstrom per pixel. There are four features to annotate, microtubules, ribosomes, single membranes and double membranes. 
+TEM image stacks of [PC12 cell](https://www.ebi.ac.uk/pdbe/entry/emdb/EMD-8594), a tomogram after binning 4 is 864\*864\*94 pixels, 28 angstrom per pixel. There are four features to annotate, microtubules, ribosomes, single membranes and double membranes. Eventually the user will define the number of features.
 
 ### Data augmentation
 
@@ -21,7 +21,7 @@ This deep neural network is implemented with Keras functional API, which makes i
 
 ### Training
 
-Loss function for the training is basically just a binary crossentropy.
+Loss function for the training is binary cross-entropy.
 
 
 ---
